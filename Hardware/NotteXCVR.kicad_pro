@@ -678,12 +678,8 @@
       "FPGA_GPIO"
     ],
     [
-      "1084ad86-1971-43ac-a621-68c820cd77ed",
-      "DDR2"
-    ],
-    [
-      "7efd0e01-571a-47c9-afca-84ba246ae436",
-      "M2_Connector"
+      "d5b855d7-36c2-4ac1-8545-770dd0bd6a8c",
+      "PCIE_Edge"
     ],
     [
       "d5992739-a37b-41a7-aced-afcb7058c88c",

@@ -7047,7 +7047,7 @@
 	)
 	(symbol
 		(lib_id "FPGA_Xilinx_Artix7:XC7A35T-CSG325")
-		(at 167.64 223.52 0)
+		(at 124.46 90.17 0)
 		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7058,7 +7058,7 @@
 		(fields_autoplaced yes)
 		(uuid "74cd5975-3b2d-480b-b1e7-484cc9eebd25")
 		(property "Reference" "U2"
-			(at 134.62 225.4249 0)
+			(at 91.44 92.0749 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7069,7 +7069,7 @@
 			)
 		)
 		(property "Value" "XC7A35T-CSG325"
-			(at 134.62 227.9649 0)
+			(at 91.44 94.6149 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7080,7 +7080,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA:Xilinx_CSG325"
-			(at 167.64 223.52 0)
+			(at 124.46 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7091,7 +7091,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 223.52 0)
+			(at 124.46 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7101,7 +7101,7 @@
 			)
 		)
 		(property "Description" "Artix 7 T 35 XC7A35T-CSG325"
-			(at 167.64 223.52 0)
+			(at 124.46 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
