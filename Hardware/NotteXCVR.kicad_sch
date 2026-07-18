@@ -3,10 +3,10 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "66cb547b-932d-4f9e-941e-9414e44abcf1")
-	(paper "A4")
+	(paper "B")
 	(lib_symbols)
 	(sheet
-		(at 85.09 71.12)
+		(at 96.52 72.39)
 		(size 20.32 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "1084ad86-1971-43ac-a621-68c820cd77ed")
 		(property "Sheetname" "DDR2"
-			(at 85.09 70.4084 0)
+			(at 96.52 71.6784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "ddr2.kicad_sch"
-			(at 85.09 89.4846 0)
+			(at 96.52 90.7546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52,7 +52,7 @@
 		)
 	)
 	(sheet
-		(at 31.75 71.12)
+		(at 34.29 72.39)
 		(size 19.05 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68,7 +68,7 @@
 		)
 		(uuid "44763f25-dc1a-4528-897f-5ae44a6a44e7")
 		(property "Sheetname" "FPGA_MGT"
-			(at 31.75 70.4084 0)
+			(at 34.29 71.6784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga_mgt.kicad_sch"
-			(at 31.75 89.4846 0)
+			(at 34.29 90.7546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98,7 +98,7 @@
 		)
 	)
 	(sheet
-		(at 58.42 71.12)
+		(at 64.77 72.39)
 		(size 20.32 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -114,7 +114,7 @@
 		)
 		(uuid "683f8bd2-4612-406a-aa0e-c2948c4c2ade")
 		(property "Sheetname" "FPGA_GPIO"
-			(at 58.42 70.4084 0)
+			(at 64.77 71.6784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +125,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga_gpio.kicad_sch"
-			(at 58.42 89.4846 0)
+			(at 64.77 90.7546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -144,7 +144,7 @@
 		)
 	)
 	(sheet
-		(at 111.76 71.12)
+		(at 96.52 100.33)
 		(size 20.32 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -160,7 +160,7 @@
 		)
 		(uuid "7efd0e01-571a-47c9-afca-84ba246ae436")
 		(property "Sheetname" "M2_Connector"
-			(at 111.76 70.4084 0)
+			(at 96.52 99.6184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -171,7 +171,7 @@
 			)
 		)
 		(property "Sheetfile" "m2_connector.kicad_sch"
-			(at 111.76 89.4846 0)
+			(at 96.52 118.6946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -190,7 +190,7 @@
 		)
 	)
 	(sheet
-		(at 58.42 99.06)
+		(at 64.77 100.33)
 		(size 20.32 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -206,7 +206,7 @@
 		)
 		(uuid "8cc51898-15cf-40d3-8f6a-7ceeee437c33")
 		(property "Sheetname" "FPGA_Config"
-			(at 58.42 98.3484 0)
+			(at 64.77 99.6184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -217,7 +217,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga_config.kicad_sch"
-			(at 58.42 117.4246 0)
+			(at 64.77 118.6946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -236,7 +236,7 @@
 		)
 	)
 	(sheet
-		(at 31.75 99.06)
+		(at 34.29 100.33)
 		(size 19.05 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -252,7 +252,7 @@
 		)
 		(uuid "d5992739-a37b-41a7-aced-afcb7058c88c")
 		(property "Sheetname" "Power"
-			(at 31.75 98.3484 0)
+			(at 34.29 99.6184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -263,7 +263,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 31.75 117.4246 0)
+			(at 34.29 118.6946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "b782ceb4-fe60-432a-983c-ca9519514133")
-	(paper "A4")
+	(paper "B")
 	(lib_symbols
 		(symbol "Connector:Bus_M.2_Socket_E"
 			(exclude_from_sim no)
