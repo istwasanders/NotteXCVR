@@ -6140,6 +6140,94 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 289.56 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90030ebe-e0eb-4dfb-bd15-bf7239e7ae5d")
+	)
+	(junction
+		(at 289.56 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6383431-60a0-4c84-a074-a4ca816e825b")
+	)
+	(junction
+		(at 289.56 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e334a051-a3f7-4ce4-be28-11299ca2c01b")
+	)
+	(wire
+		(pts
+			(xy 289.56 172.72) (xy 289.56 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1da3aad7-6794-4478-a298-392ab3d163cd")
+	)
+	(wire
+		(pts
+			(xy 289.56 180.34) (xy 299.72 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45518bda-9c51-4e84-9ce7-097a21da0bf1")
+	)
+	(wire
+		(pts
+			(xy 299.72 172.72) (xy 299.72 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a863aff-4be6-4a69-8998-534a7a0a36d2")
+	)
+	(wire
+		(pts
+			(xy 289.56 167.64) (xy 289.56 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd03f9fd-f381-4f88-98da-57ccbc2a6f55")
+	)
+	(wire
+		(pts
+			(xy 299.72 170.18) (xy 289.56 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb8bb469-1e27-4c59-adf3-d286a3838bfd")
+	)
+	(wire
+		(pts
+			(xy 289.56 165.1) (xy 289.56 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf6ed105-ac2b-4d6c-be5c-6311e2b8db7e")
+	)
+	(wire
+		(pts
+			(xy 289.56 170.18) (xy 289.56 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd64ec53-30c2-4e69-87b4-b84c88dd5387")
+	)
 	(symbol
 		(lib_id "FPGA_Xilinx_Artix7:XC7A35T-CSG325")
 		(at 251.46 172.72 0)
@@ -7187,7 +7275,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 173.99 204.47 0)
+		(at 299.72 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7198,7 +7286,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a66da4f-332f-44bd-96b8-519f0d1a37b7")
 		(property "Reference" "R1"
-			(at 176.53 203.1999 0)
+			(at 302.26 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7209,7 +7297,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 176.53 205.7399 0)
+			(at 302.26 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7220,7 +7308,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 172.212 204.47 90)
+			(at 297.942 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7231,7 +7319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 204.47 0)
+			(at 299.72 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7242,7 +7330,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 173.99 204.47 0)
+			(at 299.72 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

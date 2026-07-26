@@ -144,6 +144,52 @@
 		)
 	)
 	(sheet
+		(at 59.69 156.21)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b66425cf-9c5d-43f5-83cb-f6e0c19841ee")
+		(property "Sheetname" "Off Board Interface"
+			(at 59.69 155.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "off_board_interface.kicad_sch"
+			(at 59.69 160.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NotteXCVR"
+				(path "/66cb547b-932d-4f9e-941e-9414e44abcf1"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 38.1 101.6)
 		(size 25.4 25.4)
 		(exclude_from_sim no)

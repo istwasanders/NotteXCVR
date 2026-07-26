@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.4,
-          "width": 0.4
+          "drill": 0.254,
+          "height": 0.508,
+          "width": 0.508
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -146,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0762,
+        "min_clearance": 0.127,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.508,
         "min_groove_width": 0.0,
@@ -159,8 +159,8 @@
         "min_text_height": 0.762,
         "min_text_thickness": 0.1016,
         "min_through_hole_diameter": 0.2032,
-        "min_track_width": 0.0762,
-        "min_via_annular_width": 0.1016,
+        "min_track_width": 0.127,
+        "min_via_annular_width": 0.127,
         "min_via_diameter": 0.4572,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -661,7 +661,7 @@
         "uuid": "66cb547b-932d-4f9e-941e-9414e44abcf1"
       }
     ],
-    "used_designators": "R1,J1,U1-2",
+    "used_designators": "R1,J1-2,U1-2",
     "variants": []
   },
   "sheets": [
@@ -680,6 +680,10 @@
     [
       "d5b855d7-36c2-4ac1-8545-770dd0bd6a8c",
       "PCIE_Edge"
+    ],
+    [
+      "b66425cf-9c5d-43f5-83cb-f6e0c19841ee",
+      "Off Board Interface"
     ],
     [
       "d5992739-a37b-41a7-aced-afcb7058c88c",
