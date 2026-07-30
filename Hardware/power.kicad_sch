@@ -8324,7 +8324,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d321c328-18f8-4923-b93c-3d819041b0f7")
+			(uuid "d321c328-18f8-4923-b93c-3d819041b0f8")
 		)
 		(instances
 			(project "NotteXCVR"

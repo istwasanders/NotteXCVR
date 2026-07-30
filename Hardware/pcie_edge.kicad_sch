@@ -1515,36 +1515,6 @@
 		)
 		(uuid "063b038c-7602-45c0-b85d-08042d8e87d0")
 	)
-	(label "PCIE_RX_P"
-		(at 214.63 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "37759c41-0cd0-4ce3-8010-54362552173f")
-	)
-	(label "PCIE_TX_N"
-		(at 88.9 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "46874756-a651-450b-ae46-4409b86ca7b3")
-	)
-	(label "PCIE_RX_N"
-		(at 214.63 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8d394871-c4e6-441c-88d3-f23196ab29f0")
-	)
 	(label "PCIE_REFCLK_N"
 		(at 53.34 85.09 0)
 		(effects
@@ -1555,18 +1525,8 @@
 		)
 		(uuid "accc45ce-fdeb-49b0-beff-1629e6d74f0e")
 	)
-	(label "PCIE_TX_P"
-		(at 88.9 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d6e09a91-abf3-4cc9-b724-2ba5b6e3078e")
-	)
-	(global_label "PCIE_RX_N"
-		(shape output)
+	(global_label "PCIE_TX_N"
+		(shape input)
 		(at 226.06 107.95 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1577,7 +1537,7 @@
 		)
 		(uuid "02555386-9082-4576-9b4b-985d25cc69b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.0842 107.95 0)
+			(at 238.7818 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1613,8 +1573,8 @@
 			)
 		)
 	)
-	(global_label "PCIE_RX_P"
-		(shape output)
+	(global_label "PCIE_TX_P"
+		(shape input)
 		(at 226.06 105.41 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1625,7 +1585,7 @@
 		)
 		(uuid "21b35bc4-739a-46b9-8a5c-24dd15281f29")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.0237 105.41 0)
+			(at 238.7213 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1661,8 +1621,8 @@
 			)
 		)
 	)
-	(global_label "PCIE_TX_N"
-		(shape input)
+	(global_label "PCIE_RX_N"
+		(shape output)
 		(at 88.9 107.95 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1673,7 +1633,7 @@
 		)
 		(uuid "ea97eebf-9e3f-438e-a70b-8ad6dafb5186")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.1782 107.95 0)
+			(at 75.8758 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1685,8 +1645,8 @@
 			)
 		)
 	)
-	(global_label "PCIE_TX_P"
-		(shape input)
+	(global_label "PCIE_RX_P"
+		(shape output)
 		(at 88.9 105.41 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1697,7 +1657,7 @@
 		)
 		(uuid "fbb3c4f1-f3a2-42bb-88b9-6d744d67696e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.2387 105.41 0)
+			(at 75.9363 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

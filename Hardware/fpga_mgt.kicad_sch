@@ -8776,10 +8776,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "60b58654-0df2-4672-9c1e-8e4f7b8f123f")
+			(uuid "60b58654-0df2-4672-9c1e-8e4f7b8f1240")
 		)
 		(pin "2"
-			(uuid "8d0fd222-7bc3-411a-9c8c-50ec402efb7f")
+			(uuid "8d0fd222-7bc3-411a-9c8c-50ec402efb80")
 		)
 		(instances
 			(project "NotteXCVR"
@@ -8857,10 +8857,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "60b58654-0df2-4672-9c1e-8e4f7b8f123f")
+			(uuid "60b58654-0df2-4672-9c1e-8e4f7b8f1241")
 		)
 		(pin "2"
-			(uuid "8d0fd222-7bc3-411a-9c8c-50ec402efb7f")
+			(uuid "8d0fd222-7bc3-411a-9c8c-50ec402efb81")
 		)
 		(instances
 			(project "NotteXCVR"
@@ -8938,10 +8938,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "60b58654-0df2-4672-9c1e-8e4f7b8f123f")
+			(uuid "60b58654-0df2-4672-9c1e-8e4f7b8f1242")
 		)
 		(pin "2"
-			(uuid "8d0fd222-7bc3-411a-9c8c-50ec402efb7f")
+			(uuid "8d0fd222-7bc3-411a-9c8c-50ec402efb82")
 		)
 		(instances
 			(project "NotteXCVR"
@@ -9019,10 +9019,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "60b58654-0df2-4672-9c1e-8e4f7b8f123f")
+			(uuid "60b58654-0df2-4672-9c1e-8e4f7b8f1243")
 		)
 		(pin "2"
-			(uuid "8d0fd222-7bc3-411a-9c8c-50ec402efb7f")
+			(uuid "8d0fd222-7bc3-411a-9c8c-50ec402efb83")
 		)
 		(instances
 			(project "NotteXCVR"
@@ -9100,10 +9100,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "60b58654-0df2-4672-9c1e-8e4f7b8f123f")
+			(uuid "60b58654-0df2-4672-9c1e-8e4f7b8f1244")
 		)
 		(pin "2"
-			(uuid "8d0fd222-7bc3-411a-9c8c-50ec402efb7f")
+			(uuid "8d0fd222-7bc3-411a-9c8c-50ec402efb84")
 		)
 		(instances
 			(project "NotteXCVR"
