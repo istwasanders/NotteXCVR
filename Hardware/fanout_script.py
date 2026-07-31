@@ -1,13 +1,6 @@
 import pcbnew
 board = pcbnew.GetBoard()
 
-# The FPGA is U2.  It might be useful later to make this a parameter
-tgt = board.FindFootprintByReference("U2")
-pads = tgt.Pads()
-
-# U2 has pads spaced 0.8mm apart, place the vias offset 0.4mm from the pads
-via_offset = pcbnew.VECTOR2I(400000,400000)
-
 # Makes 0.2mm width track from pad to via
 def add_track(start,end):
     track = pcbnew.PCB_TRACK(board)
@@ -24,9 +17,26 @@ def add_via(position):
     via.SetDrill(int(0.2032 * 1e6))
     via.SetWidth(int(0.4572 * 1e6))
     board.Add(via)
-for pad in pads:
-    via_location = pad.GetPosition() + via_offset
-    add_via(via_location)
-    add_track(pad.GetPosition(),via_location)
-pcbnew.Refresh()
+
+def do_fanning_out(reference):
+    tgt = board.FindFootprintByReference(reference)
+    pads = tgt.Pads()
+
+    center_x = tgt.GetX()
+    center_y = tgt.GetY()
+
+    for pad in pads:
+        pad_x = pad.GetX()
+        pad_y = pad.GetY()
+
+        if(pad_x > center_x): via_x = pad_x + 400000
+        else: via_x = pad_x - 400000
+
+        if(pad_y > center_y): via_y = pad_y + 400000
+        else: via_y = pad_y - 400000
+
+        via_location = pcbnew.VECTOR2I(via_x,via_y)
+        add_via(via_location)
+        add_track(pad.GetPosition(),via_location)
+    pcbnew.Refresh()
 
