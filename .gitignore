@@ -1,3 +1,4 @@
 Hardware/.history
 *.lck
 Hardware/__pycache__
+Hardware/_restore_backup*
