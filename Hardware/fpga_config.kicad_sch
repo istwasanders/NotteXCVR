@@ -12672,7 +12672,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7a009aae-f190-4859-86d0-1f6d5d83546e")
+			(uuid "7a009aae-f190-4859-86d0-1f6d5d83546f")
 		)
 		(instances
 			(project "NotteXCVR"
@@ -12832,7 +12832,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7a009aae-f190-4859-86d0-1f6d5d83546e")
+			(uuid "7a009aae-f190-4859-86d0-1f6d5d835470")
 		)
 		(instances
 			(project "NotteXCVR"

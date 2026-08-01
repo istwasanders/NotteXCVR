@@ -1,4 +1,9 @@
 (version 1)
 (rule "Minimum clearance 1"
 	(constraint clearance (min 0.1016mm))
+	(condition "A.intersectsArea('BGA_Fanout')")
+)
+(rule "Copper to hole clearance 1"
+	(constraint hole_clearance (min 0.2286mm))
+	(condition "A.intersectsArea('BGA_Fanout')")
 )

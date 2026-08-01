@@ -1515,6 +1515,36 @@
 		)
 		(uuid "063b038c-7602-45c0-b85d-08042d8e87d0")
 	)
+	(label "EDGE_TX_P"
+		(at 168.91 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0869ec75-9024-4874-9502-fdb011bd2b36")
+	)
+	(label "EDGE_TX_N"
+		(at 168.91 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b17afdd-39f8-4cb6-ac0f-85c5640247ac")
+	)
+	(label "EDGE_REFCLK_P"
+		(at 92.71 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6078a5b8-401b-4bd4-a427-835fc9eacb46")
+	)
 	(label "PCIE_REFCLK_N"
 		(at 53.34 85.09 0)
 		(effects
@@ -1524,6 +1554,16 @@
 			(justify left bottom)
 		)
 		(uuid "accc45ce-fdeb-49b0-beff-1629e6d74f0e")
+	)
+	(label "EDGE_REFCLK_N"
+		(at 92.71 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b06f6364-7a12-4571-bc48-ba7915f89045")
 	)
 	(global_label "PCIE_TX_N"
 		(shape input)

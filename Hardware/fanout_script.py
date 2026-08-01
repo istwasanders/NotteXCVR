@@ -18,7 +18,27 @@ def add_via(position):
     via.SetWidth(int(0.4572 * 1e6))
     board.Add(via)
 
-def do_fanning_out(reference):
+def out_from_center(target,options):
+    pads = target.Pads()
+    center_x = tgt.GetX()
+    center_y = tgt.GetY()
+    
+    pitch = options['pitch']
+    
+    pads_pos = [pad.GetPosition() for pad in pads]
+    vias_pos = [pcbnew.VECTOR2I(
+        pad[0] + pitch if pad[0] > center_x else pad[0] - pitch,
+        pad[1] + pitch if pad[1] > center_y else pad[1] - pitch)
+        for pad in pads_pos]
+    
+    pads_x = [pad.GetX() for pad in pads]
+    pads_y = [pad.GetY() for pad in pads]
+    vias_x = [pitch if pad_x > center_x else -pitch for pad_x in pads_x]
+    vias_y = [pitch if pad_y > center_y else -pitch for pad_y in pads_y]
+    
+    
+
+def do_fanning_out(reference,strategy):
     tgt = board.FindFootprintByReference(reference)
     pads = tgt.Pads()
 
