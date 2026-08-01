@@ -36,7 +36,15 @@ def out_from_center(target,options):
     vias_x = [pitch if pad_x > center_x else -pitch for pad_x in pads_x]
     vias_y = [pitch if pad_y > center_y else -pitch for pad_y in pads_y]
     
+def constant_offset(target,options):
+    offset = options['offset']
     
+    pads = target.Pads()
+    for pad in pads:
+        via_pos = pad.GetPosition() + offset
+        add_via(via_pos)
+        add_track(pad.GetPosition(),via_pos)
+    pcbnew.Refresh()
 
 def do_fanning_out(reference,strategy):
     tgt = board.FindFootprintByReference(reference)
