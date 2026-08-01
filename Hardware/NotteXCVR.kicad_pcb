@@ -2340,6 +2340,17 @@
 			(uuid "ea91cd90-cec0-495a-942c-050ed6ae0097")
 		)
 		(embedded_fonts no)
+		(model "/home/isaac/kicad-libraries/GMI-10-2-1.27-G-10/GMI-10-2-1.27-G-10.stp"
+			(offset
+				(xyz 0 0 0.635)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
