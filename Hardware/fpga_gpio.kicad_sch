@@ -6026,6 +6026,26 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 127) (xy 167.64 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00b313ab-6bdc-4f5e-afb6-4c8647fc729a")
+	)
+	(wire
+		(pts
+			(xy 146.05 119.38) (xy 167.64 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "230d4e47-6614-4d59-ae54-d3bff3ec6247")
+	)
+	(wire
+		(pts
 			(xy 185.42 45.72) (xy 187.96 45.72)
 		)
 		(stroke
@@ -6046,6 +6066,26 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 121.92) (xy 167.64 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d6c926-70ad-4e8c-a280-8ce7e135f6fb")
+	)
+	(wire
+		(pts
+			(xy 146.05 124.46) (xy 167.64 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "590809bc-2d19-45cc-8447-ddb86b164195")
+	)
+	(wire
+		(pts
 			(xy 177.8 45.72) (xy 180.34 45.72)
 		)
 		(stroke
@@ -6053,6 +6093,16 @@
 			(type default)
 		)
 		(uuid "5ecbb316-d119-4523-a515-fdf2fea8cb2a")
+	)
+	(wire
+		(pts
+			(xy 146.05 137.16) (xy 167.64 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6291210d-cfdd-4d79-bcc0-1a992daa6b0e")
 	)
 	(wire
 		(pts
@@ -6066,6 +6116,26 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 129.54) (xy 167.64 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e23e3c8-3b39-4065-b266-b2145ba39013")
+	)
+	(wire
+		(pts
+			(xy 146.05 132.08) (xy 167.64 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c1e070-b817-432a-8c1b-285d3be3ea5e")
+	)
+	(wire
+		(pts
 			(xy 182.88 45.72) (xy 185.42 45.72)
 		)
 		(stroke
@@ -6073,6 +6143,16 @@
 			(type default)
 		)
 		(uuid "c486c50e-596c-4c25-a11b-3edc53a767d7")
+	)
+	(wire
+		(pts
+			(xy 146.05 134.62) (xy 167.64 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df5702f3-2779-4b60-a385-571753f51701")
 	)
 	(symbol
 		(lib_id "FPGA_Xilinx_Artix7:XC7A35T-CSG325")
