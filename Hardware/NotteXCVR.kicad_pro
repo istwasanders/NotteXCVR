@@ -662,7 +662,7 @@
         "uuid": "66cb547b-932d-4f9e-941e-9414e44abcf1"
       }
     ],
-    "used_designators": "C1-6,#PWR1-61,R1-8,J1-9,Q1-2,U1-4",
+    "used_designators": "C1-11,FB1-5,#PWR1-79,R1-9,J1-10,Q1-2,U1-6",
     "variants": []
   },
   "sheets": [
@@ -693,6 +693,10 @@
     [
       "8cc51898-15cf-40d3-8f6a-7ceeee437c33",
       "FPGA_Config"
+    ],
+    [
+      "9cf0caff-9c38-402a-90a2-6b6c16ce30ee",
+      "JTAG_FT2232"
     ]
   ],
   "text_variables": {},
